@@ -1,0 +1,12 @@
+1. md DynamicsPowerOnline
+
+2. code .
+
+3. { Inside Code console } 
+pac pcf init --namespace DynamicsPower --name AccuWeatherComponent --template field
+
+4. Explain ControlManifest.Input.xml
+
+5. Add properties
+
+6. 
