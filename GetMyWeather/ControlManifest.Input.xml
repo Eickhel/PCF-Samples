@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="DynamicsPower" constructor="GetMyWeather" version="0.0.3" display-name-key="GetMyWeather" description-key="GetMyWeather description" control-type="standard">
+    <property name="apikey" display-name-key="apikey_Display_Key" description-key="apikey_Desc_Key" of-type="SingleLine.Text" usage="bound" required="true"/>
+    <property name="location" display-name-key="location_Display_Key" description-key="location_Desc_Key" of-type="SingleLine.Text" usage="bound" required="true"/>
+    <property name="weather" display-name-key="weather_Display_Key" description-key="weather_Desc_Key" of-type="Whole.None" usage="bound" required="true" />
+    <resources>
+      <code path="index.ts" order="1"/>
+    </resources>
+  </control>
+</manifest>
