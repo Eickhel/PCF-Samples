@@ -4,7 +4,6 @@ export class GetMyWeather implements ComponentFramework.StandardControl<IInputs,
   private _apikey?: string;
   private _location?: string;
   private _weather: number = 0;
-  private _container: HTMLDivElement;
 
   // PCF framework delegate which will be assigned to this object which would be called whenever any update happens.
   private _notifyOutputChanged: () => void;
