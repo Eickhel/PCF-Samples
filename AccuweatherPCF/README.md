@@ -1,19 +1,29 @@
 # Requirements
 1. Node.js - LTS preferred
-https://nodejs.org/en/
+
+   https://nodejs.org/en/
+
 2. .NET Framework 4.6.2 Developer Pack
-https://dotnet.microsoft.com/download/dotnet-framework/net462/
+
+   https://dotnet.microsoft.com/download/dotnet-framework/net462/
+
 3. .Net Core
-https://dotnet.microsoft.com/download
+
+   https://dotnet.microsoft.com/download
+
 4. Visual Studio Core - Preferred editor
-https://code.visualstudio.com/Download
+
+   https://code.visualstudio.com/Download
+
 5. Power Apps CLI
-https://aka.ms/PowerAppsCLI
+
+   https://aka.ms/PowerAppsCLI
+
 6. Configure your Power Platform environment
 
-    Select your environment and then select: Settings | Product | Features
+   Select your environment and then select: Settings | Product | Features
 
-    Enable "Allow publishing of canvas apps with code components"
+   Enable "Allow publishing of canvas apps with code components"
 
 # Walk-through
 
