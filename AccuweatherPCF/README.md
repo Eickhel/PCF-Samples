@@ -139,10 +139,12 @@ export class GetMyWeather implements ComponentFramework.StandardControl<IInputs,
 
 9. md AccuWeatherSolution
 
-10. pac solution init --publisher-name ScottishSummit --publisher-prefix ssp
+10. cd AccuWeatherSolution
 
-11. pac solution add-reference --path ..
+11. pac solution init --publisher-name ScottishSummit --publisher-prefix ssp
 
-12. msbuild /t:restore
+12. pac solution add-reference --path ..
 
-13. msbuild
+13. msbuild /t:restore
+
+14. msbuild
